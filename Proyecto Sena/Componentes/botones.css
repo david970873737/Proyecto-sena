@@ -1,0 +1,67 @@
+.boton-ingresar {
+    width: 100%;
+    padding: 0.9rem;
+
+    border-radius: 8px;
+
+    background-color: var(--color-primary);
+    color: var(--text-primary);
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.boton-ingresar:hover {
+    background-color: var(--hover-color);
+}
+
+.boton-registrar {
+    width: 100%;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 8px;
+    background: var(--color-primary);
+    color: var(--text-primary);
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-registrar:hover{
+    background-color: var(--hover-color);
+}
+
+
+.boton__principal {
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+
+    background-color: var(--color-primary);
+    color: var(--text-primary);
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+
+.boton__principal:hover {
+    background-color: var(--hover-color);
+}
+
+.boton-comprar:hover{
+    background-color: var(--success);
+}
+
+.producto__boton {
+    width: 100%;
+    text-align: center;
+    padding: 0.9rem;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    transition: 0.3s ease;
+}
+
+.producto__boton:hover {
+    background-color: var(--hover-color);
+}

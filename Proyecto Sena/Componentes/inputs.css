@@ -1,0 +1,39 @@
+.contenedor-input {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    padding: 0.8rem 1rem;
+
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.campo-escribir {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--text-primary);
+}
+
+.campo-escribir::placeholder {
+    color: var(--text-secondary);
+}
+
+.icono-mostrar,
+.icono-visualizar {
+    color: var(--text-secondary);
+}
+
+.grupo-escribir {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.label-escribir {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}

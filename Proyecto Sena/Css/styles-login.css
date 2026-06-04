@@ -1,0 +1,11 @@
+@import url("../Base/reset.css");
+@import url("../Base/variables.css");
+@import url("../Base/base.css");
+
+@import url("../Componentes/botones.css");
+@import url("../Componentes/inputs.css");
+@import url("../Componentes/imagenes.css");
+
+@import url("./login.css");
+
+@import url("../Responsive/responsive.css");

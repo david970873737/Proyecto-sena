@@ -1,0 +1,72 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-registrar{
+    width: 100%;
+    max-width: 450px;
+}
+
+.contenedor-mostrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-mostrar {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.texto-mostrar {
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
+
+.formulario-validar{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contenedor-aceptar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.casilla-activar {
+    width: 16px;
+    height: 16px;
+
+    accent-color: var(--color-primary);
+
+    cursor: pointer;
+}
+
+.contenedor-aceptar label {
+    cursor: pointer;
+    user-select: none;
+}
+
+.contenedor-signUp-new{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.enlace_login-new{
+    font-size: 0.85rem;
+}
+
+.enlace_login-new:hover{
+    color: var(--text-primary);
+    text-decoration: underline;
+}

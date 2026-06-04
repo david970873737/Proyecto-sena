@@ -1,0 +1,93 @@
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px) {
+
+    .hero {
+        min-height: 70vh;
+    }
+
+    .navbar {
+        padding: 1rem 3%;
+    }
+
+    .productos,
+    .estadisticas,
+    .contacto {
+        padding: 4rem 3%;
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .navbar__menu {
+        width: 100%;
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 1rem;
+    }
+
+    .navbar__acciones {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+    .hero {
+        min-height: 60vh;
+    }
+
+    .hero__contenido {
+        width: 95%;
+    }
+
+    .producto__imagen {
+        height: 220px;
+    }
+
+    .contenedor-acceder,
+    .contenedor-registrar {
+        padding: 1.5rem;
+    }
+}
+
+/* =========================
+   MOBILE PEQUEÑO
+========================= */
+
+@media (max-width: 480px) {
+
+    .hero {
+        min-height: 50vh;
+    }
+
+    .hero__boton,
+    .producto__boton,
+    .contacto__boton {
+        width: 100%;
+    }
+
+    .navbar__login,
+    .navbar__registro {
+        width: 100%;
+        text-align: center;
+    }
+
+    .producto__imagen {
+        height: 200px;
+    }
+}

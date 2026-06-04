@@ -1,0 +1,86 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 5%;
+    background-color: var(--bg-navbar);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-color);
+    transition: 0.3s ease;
+}
+
+
+
+.navbar__logo-enlace {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    font-weight: 700;
+
+    color: var(--text-primary);
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar__enlace {
+    position: relative;
+    color: var(--text-secondary);
+    transition: 0.3s ease;
+}
+
+.navbar__enlace::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--text-primary);
+    transition: 0.3s ease;
+}
+
+.navbar__enlace:hover {
+    color: var(--text-primary);
+}
+
+.navbar__enlace:hover::after {
+    width: 100%;
+}
+
+.navbar__acciones {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar__login,
+.navbar__registro {
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.navbar__login:hover,
+.navbar__registro:hover {
+    background-color: var(--hover-color);
+    color: var(--text-primary);
+}
+
+.navbar__carrito {
+    font-size: 1.2rem;
+    color: var(--text-primary);
+
+    transition: 0.3s ease;
+}
+
+.navbar__carrito:hover {
+    transform: translateY(-2px);
+    color: var(--hover-color);
+}

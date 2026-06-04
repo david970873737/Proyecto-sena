@@ -1,0 +1,76 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor-acceder {
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor-mostrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.titulo-mostrar {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.texto-mostrar {
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
+
+.Formulario-validar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+
+.contenedor-login{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.seccion-recuperar {
+    text-align: left;
+}
+
+.enlace-recuperar {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.enlace-recuperar:hover {
+    color: var(--text-primary);
+}
+
+.enlace_signUp-new{
+    font-size: 0.85rem;
+    text-decoration: underline;
+}
+
+.enlace_signUp-new:hover{
+    color:var(--text-enlace) ;
+}

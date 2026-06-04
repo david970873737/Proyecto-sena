@@ -1,0 +1,16 @@
+.carrito-panel{
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 30%;
+    height: 100vh;
+    background: var(--color-primary);
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.carrito-panel.activo{
+    right: 0;
+}

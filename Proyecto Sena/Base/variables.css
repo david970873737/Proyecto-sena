@@ -1,0 +1,35 @@
+:root {
+
+    /* COLOR BASE */
+
+    --color-primary: #404040;      /* Gris principal */
+    --color-secondary: #262626;    /* Gris más oscuro */
+
+    /* BACKGROUNDS */
+
+    --bg-primary: #0A0A0A;         /* Fondo principal */
+    --bg-card: #171717;            /* Tarjetas */
+    --bg-navbar: rgba(23, 23, 23, 0.85);
+
+    /* TEXTO */
+
+    --text-primary: #FAFAFA;       /* Blanco suave */
+    --text-secondary: #A3A3A3;     /* Gris medio */
+    --text-enlace: #002ec4;
+    
+
+    /* BORDES */
+
+    --border-color: #2E2E2E;
+
+    /* ESTADOS E INTERACCIÓN */
+
+    --hover-color: #525252;
+    --active-color: #737373;
+
+    /* FEEDBACK */
+
+    --error: #525252;
+    --success: #737373;
+
+}
